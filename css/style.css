@@ -88,7 +88,7 @@ a:focus {
 }
 
 .navbar-light .menu_nav .navbar-nav .nav-link span{
-   color: #422647;
+   color: #a8a8a8;
 }
 
 .menu_dropdown .dropdown-menu.show {
@@ -102,6 +102,7 @@ a:focus {
    box-shadow: 0px 1px 10px 3px rgba(51, 0, 72, 1);
    background: #2D083A;
    padding: 0px;
+   width: 194px;
 }
 
 .menu_dropdown .dropdown-item:focus,
@@ -110,7 +111,14 @@ a:focus {
 }
 
 li.nav-item.dropdown.menu_dropdown.show a.dropdown-item {
-   color: #ffffff;
+   color: #ffffff;   
+   font-weight: 500;
+}
+
+.menu .navbar-light .navbar-toggler {
+   color: #a8a8a8;
+   border-radius: 0px;
+   border-color: #a8a8a8;
 }
 /* Menu Area End */
 
