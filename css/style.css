@@ -61,7 +61,7 @@ a:focus {
 /**************************************  
    Header Section Start
 ***************************************/
-.custom_width {
+#custom_width {
    max-width: 1970px;
    margin: 0 auto;
 }
@@ -91,7 +91,7 @@ a:focus {
    padding: 10px 20px;
 }
 
-.navbar-light .menu_nav .navbar-nav .nav-link span{
+.navbar-light .menu_nav .navbar-nav .nav-link span {
    color: #a8a8a8;
 }
 
@@ -101,7 +101,6 @@ a:focus {
    border-radius: 0px;
    border: none;
    -webkit-box-shadow: 0px 1px 10px 3px rgba(51, 0, 72, 1);
-   -moz-box-shadow: 0px 1px 10px 3px rgba(51, 0, 72, 1);
    box-shadow: 0px 1px 10px 3px rgba(51, 0, 72, 1);
    background: #2D083A;
    padding: 0px;
@@ -114,7 +113,7 @@ a:focus {
 }
 
 li.nav-item.dropdown.menu_dropdown.show a.dropdown-item {
-   color: #ffffff;   
+   color: #ffffff;
    font-weight: 500;
 }
 
@@ -122,7 +121,9 @@ li.nav-item.dropdown.menu_dropdown.show a.dropdown-item {
    color: #a8a8a8;
    border-radius: 0px;
    border-color: #a8a8a8;
+   border: none;
 }
+
 /* Menu Area End */
 
 /* Header Body Start */
@@ -185,6 +186,7 @@ a.scroll_btn span {
    letter-spacing: 1.6px;
    margin-top: 16px;
 }
+
 /* Header Body End */
 
 /* Header Traingle Start */
@@ -197,6 +199,8 @@ a.scroll_btn span {
    top: 0;
    left: -7%;
    z-index: -2;
+   -webkit-transform: rotate(180deg);
+   -ms-transform: rotate(180deg);
    transform: rotate(180deg);
 }
 
@@ -212,10 +216,186 @@ a.scroll_btn span {
    top: 73%;
    right: -9%;
    z-index: -2;
+   -webkit-transform: rotate(180deg);
+   -ms-transform: rotate(180deg);
    transform: rotate(180deg);
 }
+
 /* Header Traingle End */
 
 /**************************************  
    Header Section End
+***************************************/
+
+/**************************************  
+      Quisque / About Start
+***************************************/
+.container-fluid.container_padding {
+   padding-left: 0px;
+   overflow: hidden;
+}
+
+.quisque_bg {
+   background-image: url(../images/Quisque_bg.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: #F8F8F8;
+   height: 624px;
+   position: relative;
+}
+
+.quisque_right h2 {
+   font-size: 71px;
+   text-transform: uppercase;
+   color: #404040;
+   padding-bottom: 20px;
+}
+
+span.mountain_top {
+   position: absolute;
+   top: 23%;
+   left: 18%;
+   font-size: 15px;
+   width: 38px;
+   height: 38px;
+   border: 2px solid #ed322d;
+   border-radius: 50%;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   color: #ed322d;
+}
+
+span.mountain_top:after {
+   content: '';
+   position: absolute;
+   background: #e2e2e2;
+   width: 110px;
+   height: 2px;
+   left: 72%;
+}
+
+.quisque_right h2 span {
+   color: #ed322d;
+}
+
+.quisque_right {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   background-color: #F8F8F8;
+   margin-left: -30px;
+   padding-left: 45px;
+   height: 624px;
+   position: relative;
+}
+
+.quisque_right:after {
+   position: absolute;
+   content: '';
+   background-color: #f8f8f8;
+   width: 5000px;
+   height: 624px;
+   left: 100%;
+}
+
+.border_bar {
+   position: relative;
+}
+
+span.bordr_bottom {
+   width: 35px;
+   height: 2px;
+   display: block;
+   background: #d3d3d3;
+   position: absolute;
+   top: 50%;
+   left: 0%;
+}
+
+.quisque_border {
+   background: #eeeeee;
+   width: 100%;
+   height: 2px;
+   margin-bottom: 30px;
+}
+
+.quisque_right p {
+   padding: 35px 0px;
+   color: #5d5d5d;
+   font-weight: 400;
+   font-size: 17px;
+}
+
+.quisque_video_text p {
+   padding: 0px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   height: 100px;
+}
+
+.quisque_video_thumbnail:after {
+   position: absolute;
+   content: '';
+   background: #000;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   opacity: .5;
+}
+
+.quisque_video_thumbnail {
+   position: relative;
+}
+
+.quisque_video_thumbnail span {
+   position: absolute;
+   left: 38%;
+   top: 32%;
+   color: #fff;
+   z-index: 1;
+   font-size: 38px;
+   line-height: 30px;
+   cursor: pointer;
+}
+
+.quisque_video_thumbnail img {
+   width: 100%;
+}
+
+.quisque_bg_table h4 {
+   color: #383838;
+   font-size: 20px;
+}
+
+.quisque_bg_table p {
+   color: #7e7e7e;
+}
+
+.quisque_bg_table {
+   position: absolute;
+   left: 40%;
+   top: 24%;
+}
+
+/**************************************  
+      Quisque / About End
 ***************************************/
