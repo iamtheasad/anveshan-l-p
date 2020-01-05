@@ -1,3 +1,4 @@
+
 * {
    margin: 0px;
    padding: 0px;
@@ -400,4 +401,152 @@ span.bordr_bottom {
 
 /**************************************  
       Quisque / About End
+***************************************/
+
+
+/**************************************  
+      Our Process Section Start
+***************************************/
+.section_padding {
+   padding: 135px 0px;
+   margin: 0 auto;
+}
+
+.process_top h2 {
+   font-size: 72px;
+   text-transform: uppercase;
+   margin-bottom: 18px;
+}
+
+.our_process_border span.bordr_bottom {
+   text-align: center;
+   position: unset;
+   margin: 0 auto;
+}
+
+.process_top p {
+   font-size: 24px;
+   font-weight: 300;
+   margin-top: 30px;
+   margin-bottom: 0px;
+}
+
+.process_img {
+   display: -ms-flexbox;
+   display: -webkit-box;
+   display: flex;
+   position: relative;
+   height: 404px;
+   margin-top: 60px;
+   margin-bottom: 60px;
+   -ms-flex-align: center;
+   -webkit-box-align: center;
+   align-items: center;
+   -ms-flex-pack: center;
+   -webkit-box-pack: center;
+   justify-content: center;
+}
+
+.process_bg_1 {
+   background: #ef666d;
+   opacity: .9;
+   width: 195px;
+   height: 195px;
+   border-radius: 50%;
+   display: -ms-flexbox;
+   display: -webkit-box;
+   display: flex;
+   -ms-flex-pack: center;
+   -webkit-box-pack: center;
+   justify-content: center;
+   -ms-flex-align: center;
+   -webkit-box-align: center;
+   align-items: center;
+   position: absolute;
+   left: 5%;
+   z-index: 1;
+}
+
+.process_bg_2 {
+   background: #3dbbaf;
+   opacity: .7;
+   width: 340px;
+   height: 340px;
+   border-radius: 50%;
+   display: -ms-flexbox;
+   display: -webkit-box;
+   display: flex;
+   -ms-flex-pack: center;
+   -webkit-box-pack: center;
+   justify-content: center;
+   -ms-flex-align: center;
+   -webkit-box-align: center;
+   align-items: center;
+   position: absolute;
+   left: 21%;
+}
+
+.process_bg_3 {
+   background: #5dd0eb;
+   opacity: .9;
+   width: 404px;
+   height: 404px;
+   border-radius: 50%;
+   display: -ms-flexbox;
+   display: -webkit-box;
+   display: flex;
+   -ms-flex-pack: center;
+   -webkit-box-pack: center;
+   justify-content: center;
+   -ms-flex-align: center;
+   -webkit-box-align: center;
+   align-items: center;
+   position: absolute;
+   left: 50%;
+   z-index: -1;
+}
+
+.process_bg_4 {
+   background: #f5c92e;
+   opacity: .9;
+   width: 190px;
+   height: 190px;
+   border-radius: 50%;
+   display: -ms-flexbox;
+   display: -webkit-box;
+   display: flex;
+   -ms-flex-pack: center;
+   -webkit-box-pack: center;
+   justify-content: center;
+   -ms-flex-align: center;
+   -webkit-box-align: center;
+   align-items: center;
+   position: absolute;
+   left: 83%;
+   z-index: -2;
+}
+
+.process_img h3 {
+   color: #fff;
+   font-size: 24px;
+   text-transform: uppercase;
+   font-weight: 400;
+}
+
+.process_desc h3 {
+   font-size: 15px;
+   color: #5d5d5d;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.process_desc p {
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 1.7;
+}
+
+/**************************************  
+      Our Process Section End
 ***************************************/
