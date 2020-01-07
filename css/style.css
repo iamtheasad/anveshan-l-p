@@ -197,13 +197,13 @@ a.scroll_btn span {
 
 /* Header Traingle Start */
 .header_triangle img {
-   width: 430px;
+   width: 645px;
 }
 
 .header_triangle img:nth-child(1) {
    position: absolute;
-   top: 0;
-   left: -7%;
+   top: -5%;
+   left: -15%;
    z-index: -2;
    -webkit-transform: rotate(180deg);
    -ms-transform: rotate(180deg);
@@ -212,9 +212,10 @@ a.scroll_btn span {
 
 .header_triangle img:nth-child(2) {
    position: absolute;
-   top: 16%;
-   left: 33%;
+   top: 11%;
+   left: 50%;
    z-index: -2;
+   transform: translateX(-50%);
 }
 
 .header_triangle img:nth-child(3) {
