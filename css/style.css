@@ -417,6 +417,9 @@ span.bordr_bottom {
 ***************************************/
 .section_padding {
    padding: 135px 0px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 
 .process_top h2 {
@@ -556,4 +559,142 @@ span.bordr_bottom {
 
 /**************************************  
       Our Process Section End
+***************************************/
+
+
+/**************************************  
+      Services & Terms Section Start
+***************************************/
+.service_bg {
+   background-image: url(../images/service_bg.jpg);
+   position: relative;
+   z-index: 1;
+   background-color: #2D083A;
+   padding-left: 90px;
+   padding-right: 90px;
+   overflow: hidden;
+}
+
+.service_bg:after {
+   position: absolute;
+   content: '';
+   background-color: #000;
+   width: 100%;
+   height: 100%;
+   top: 0%;
+   left: 0%;
+   z-index: -1;
+   opacity: .6;
+}
+
+.height_85 {
+   margin-top: 85px;
+}
+
+.service_top h2,
+.service_top p {
+   color: #fff;
+}
+
+.service_top h2 span {
+   color: #ed322d;
+}
+
+.row.service_content_height {
+   height: 175px;
+   background: #7A225D;
+}
+
+.service_triangle img {
+   position: absolute;
+   left: 50%;
+   -webkit-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
+   transform: translateX(-50%);
+   top: -6%;
+   z-index: -1;
+}
+
+.service_arrow_1 {
+   background: #802C64;
+   height: 175px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+}
+
+.service_arrow_2 {
+   background: #500C50;
+}
+
+.service_arrow_3 {
+   background: #3A0C3A;
+}
+
+.service_arrow_1 i {
+   font-size: 50px;
+   color: #953d78;
+}
+
+.service_arrow_2 i {
+   color: #682852;
+}
+
+.service_arrow_3 i {
+   color: #601848;
+}
+
+.service_text_1 {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   height: 175px;
+   background: #7A225D;
+   padding: 0px 50px;
+}
+
+.service_text_2 {
+   background: #480048;
+}
+
+.service_text_3 {
+   background: #300030;
+}
+
+.service_text_1 h3 {
+   font-size: 25px;
+   color: #eaafd6;
+   font-weight: 500;
+   margin-bottom: 5px;
+}
+
+.service_text_1 p {
+   color: #c39fb7;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+/**************************************  
+      Services & Terms Section End
 ***************************************/
