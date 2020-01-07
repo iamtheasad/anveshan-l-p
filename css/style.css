@@ -215,6 +215,8 @@ a.scroll_btn span {
    top: 11%;
    left: 50%;
    z-index: -2;
+   -ms-transform: translateX(-50%);
+   -webkit-transform: translateX(-50%);
    transform: translateX(-50%);
 }
 
