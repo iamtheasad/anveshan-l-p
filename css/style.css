@@ -711,8 +711,9 @@ span.bordr_bottom {
    position: absolute;
    top: -8%;
    left: 50%;
-   -webkit-transform: translateX(-50%);
    -ms-transform: translateX(-50%);
+   -webkit-transform: translateX(-50%);
+   -moz-transform: translateX(-50%);
    transform: translateX(-50%);
    z-index: 1;
    width: 180px;
@@ -751,6 +752,7 @@ form textarea {
    border-bottom: 2px solid #f8f8f8;
    -webkit-transition: .2s;
    -o-transition: .2s;
+   -moz-transition: .2s;
    transition: .2s;
 }
 
@@ -772,6 +774,7 @@ form textarea:focus {
    border: 2px solid #afafaf;
    -webkit-transition: .2s;
    -o-transition: .2s;
+   -moz-transition: .2s;
    transition: .2s;
    margin-top: 70px;
 }
