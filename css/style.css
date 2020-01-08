@@ -53,6 +53,11 @@ textarea:focus {
    outline: none;
 }
 
+::placeholder {
+   color: #8e8e8e;
+   font-weight: 500;
+}
+
 a:hover,
 a:focus {
    text-decoration: none;
@@ -687,14 +692,94 @@ span.bordr_bottom {
    line-height: 1.6;
 }
 
-
-
-
-
-
-
+/**************************************  
+      Services & Terms Section End
+***************************************/
 
 
 /**************************************  
-      Services & Terms Section End
+      Contact Form Section Start
+***************************************/
+.contact_form_bg {
+   background-image: url(../images/footer.png);
+   z-index: 1;
+   position: relative;
+   padding-bottom: 0px;
+}
+
+.form_icon img {
+   position: absolute;
+   top: -8%;
+   left: 50%;
+   -webkit-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
+   transform: translateX(-50%);
+   z-index: 1;
+   width: 180px;
+}
+
+.contact_top h2 span {
+   color: #ededed;
+}
+
+.contact_top p {
+   color: #000;
+}
+
+.height_60 {
+   margin-top: 60px;
+}
+
+.form_box {
+   max-width: 940px;
+   margin: 0 auto;
+   height: 630px;
+   background-color: #fff;
+   border-bottom: 2px solid #f4f4f4;
+}
+
+form {
+   padding: 95px 230px;
+}
+
+form input,
+form textarea {
+   width: 100%;
+   padding: 20px;
+   margin: 6px;
+   border: none;
+   border-bottom: 2px solid #f8f8f8;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   transition: .2s;
+}
+
+textarea#textarea {
+   margin-bottom: 0px;
+}
+
+form input:focus,
+form textarea:focus {
+   border-bottom: 2px solid #ED322D;
+}
+
+.form_box input[type="submit"] {
+   color: #3c3c3c;
+   width: 235px;
+   font-size: 17px;
+   text-transform: uppercase;
+   font-weight: 500;
+   border: 2px solid #afafaf;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   transition: .2s;
+   margin-top: 70px;
+}
+
+.form_box input[type="submit"]:hover {
+   border: 2px solid #ED322D;
+}
+
+/**************************************  
+      Contact Form Section End
 ***************************************/
