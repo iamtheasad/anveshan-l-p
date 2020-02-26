@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
    <meta charset="UTF-8" />
@@ -19,62 +19,50 @@
       rel="stylesheet" />
    <!-- Material icons CDN Link -->
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-   <!-- Font Awesome CSS Link -->
-   <link rel="stylesheet" href="css/all.min.css" />
-   <link rel="stylesheet" href="css/slick.css" />
-   <!-- <link rel="stylesheet" href="css/owl.carousel.min.css" />
-   <link rel="stylesheet" href="css/owl.theme.default.min.css" /> -->
 
-   <!------- Bootstrap CSS Link ------->
-   <link rel="stylesheet" href="css/bootstrap.min.css" />
    <!-- Bootstrap CSS CDN Link -->
-   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /> -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
+   <!-- Default CSS -->
    <link rel="stylesheet" href="css/style.css" />
+
+   <!-- Responsive CSS -->
    <link rel="stylesheet" href="css/responsive.css" />
 </head>
 
 <body>
    <!-- Menu Area Start -->
-   <section id="custom_width">
+   <div class="header_menu">
       <div class="container-fluid">
          <div class="row">
-            <div class="col-md-12 padding_0">
+            <div class="col-lg-12 p-0">
                <div class="menu">
                   <nav class="navbar navbar-expand-lg navbar-light">
                      <div class="menu_img">
-                        <a href="index.html"><img src="images/logo.png" alt="Logo Img" /></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                           data-target="#headernavbarSupportedContent" aria-controls="headernavbarSupportedContent"
-                           aria-expanded="false" aria-label="Toggle navigation">
-                           <span><i class="fas fa-bars"></i></span>
-                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo Img" /> </a>
                      </div>
 
-                     <div class="collapse navbar-collapse menu_nav" id="headernavbarSupportedContent">
-                        <div class="mr-auto"></div>
-                        <ul class="navbar-nav">
-                           <li class="nav-item active">
-                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                     <div class="menu_nav" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                           <li class="nav-item">
+                              <a class="nav-link" href="#contact_form">Contact</a>
                            </li>
                            <li class="nav-item">
                               <a class="nav-link" href="#"><span>&#124;</span></a>
                            </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="#">Contact</a>
-                           </li>
                            <li class="nav-item dropdown menu_dropdown">
-                              <a class="nav-link" href="#" id="headernavbarDropdown" role="button"
-                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                 aria-haspopup="true" aria-expanded="false">
+                                 Menu
                                  <span><i class="fas fa-bars"></i></span>
                               </a>
-                              <div class="dropdown-menu" aria-labelledby="headernavbarDropdown">
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                  <a class="dropdown-item" href="#">Home</a>
                                  <a class="dropdown-item" href="#">Contact</a>
                                  <a class="dropdown-item" href="#">About Us</a>
                                  <a class="dropdown-item" href="#">Home</a>
                                  <a class="dropdown-item" href="#">About Us</a>
-                                 <a class="dropdown-item" href="#">Home</a>
                                  <a class="dropdown-item" href="#">Contact</a>
                                  <a class="dropdown-item" href="#">About Us</a>
                               </div>
@@ -86,15 +74,15 @@
             </div><!-- col -->
          </div><!-- menu_area / -->
       </div><!-- Menu Area End -->
-   </section><!-- Menu Area End -->
+   </div><!-- Menu Area End -->
 
 
    <!-- Header Background Image Start-->
-   <section id="custom_width">
+   <header class="custom_width">
       <div class="header_bg">
          <div class="container-fluid">
             <div class="row text-center">
-               <div class="col-md-8 offset-2">
+               <div class="col-lg-8 offset-lg-2">
                   <div class="header_body_text">
                      <div class="header_body_table">
                         <h1>Research & Analysis <br /> <span>driving results</span></h1>
@@ -116,14 +104,14 @@
             </div><!-- row / -->
          </div><!-- container-fluid / -->
       </div><!-- header_bg / -->
-   </section><!-- Header Background Image End-->
+   </header><!-- Header Background Image End-->
 
 
    <!-- Quisque / About Start -->
-   <section id="custom_width">
+   <section class="custom_width">
       <div class="container-fluid container_padding">
          <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                <div class="quisque_bg">
                   <div class="quisque_bg_table">
                      <h4>Interdum tincidunt</h4>
@@ -132,12 +120,11 @@
                   <span class="mountain_top"><i class="fas fa-circle"></i></span>
                </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 p-0">
                <div class="quisque_right">
                   <div class="quisque_table">
                      <h2>Quisque <span>&</span> <br /> siter amet</h2>
                      <div class="border_bar">
-                        <span class="bordr_top"></span>
                         <span class="bordr_bottom"></span>
                      </div>
                      <p>Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet volutpat, mi diam
@@ -150,8 +137,30 @@
                      <div class="row">
                         <div class="col-md-3">
                            <div class="quisque_video_thumbnail">
-                              <img src="images/Quisque_video_thumbnail.jpg" alt="Quisque Video Thumbnail">
-                              <span><i class="far fa-play-circle"></i></span>
+                              <img src="images/video_thumb.jpg" alt="Quisque Video Thumbnail">
+
+                              <button type="button" class="btn video_play_button" data-toggle="modal"
+                                 data-src="https://www.youtube.com/embed/jgnVsuKY3oM" data-target="#myVideoModal">
+                                 <i class="far fa-play-circle"></i>
+                              </button>
+                           </div>
+
+                           <!-- Modal -->
+                           <div class="modal fade" id="myVideoModal" tabindex="-1" role="dialog" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                 <div class="modal-content">
+                                    <div class="modal-body">
+                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                       </button>
+                                       <!-- 16:9 aspect ratio -->
+                                       <div class="embed-responsive embed-responsive-16by9">
+                                          <iframe class="embed-responsive-item" src="images/video_thumb.jpg" id="video"
+                                             allow="autoplay"></iframe>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
                            </div>
                         </div>
                         <div class="col-md-9">
@@ -169,8 +178,14 @@
    </section> <!-- Quisque / About End -->
 
 
+
+
+
+
+
+
    <!-- Our Process Start -->
-   <section id="custom_width" class="section_padding">
+   <section class="custom_width section_padding">
       <div class="container">
          <div class="row">
             <div class="text-center col-md-12">
@@ -207,7 +222,7 @@
          </div><!-- row / -->
 
          <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
                <div class="process_desc">
                   <h3>meeting</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet sollicitudin augue. Sed
@@ -216,7 +231,7 @@
                      sagittis eu justo.</p>
                </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
                <div class="process_desc">
                   <h3>Planning & organizing</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet sollicitudin augue. Sed
@@ -225,7 +240,7 @@
                      sagittis eu justo.</p>
                </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
                <div class="process_desc">
                   <h3>execute</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet sollicitudin augue. Sed
@@ -234,7 +249,7 @@
                      sagittis eu justo.</p>
                </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3">
                <div class="process_desc">
                   <h3>deliver</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet sollicitudin augue. Sed
@@ -249,15 +264,14 @@
 
 
    <!-- Services & Terms Start -->
-   <section id="custom_width">
+   <section class="custom_width">
       <div class="service_bg section_padding">
          <div class="container">
             <div class="row">
-               <div class="text-center col-md-12">
+               <div class="text-center col-lg-12">
                   <div class="service_top process_top">
                      <h2>services <span>&</span> terms </h2>
                      <div class="our_process_border border_bar">
-                        <span class="bordr_top"></span>
                         <span class="bordr_bottom"></span>
                      </div>
                      <p>Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet volutpat, mi diam
@@ -274,14 +288,14 @@
 
          <div class="container-fluid height_85">
             <div class="row service_content_height">
-               <div class="col-md-4 service_box_width">
+               <div class="col-md-12 col-lg-4 service_box_width">
                   <div class="row">
-                     <div class="col-md-4 margin_padding_0">
-                        <div class="service_arrow_1">
+                     <div class="col-sm-6 col-lg-3 p-0 m-0">
+                        <div class="service_arrow_1 d-flex justify-content-center align-items-center">
                            <i class="material-icons">arrow_forward</i>
                         </div>
                      </div>
-                     <div class="col-md-8 margin_padding_0">
+                     <div class="col-sm-6 col-lg-9 p-0 m-0">
                         <div class="service_text_1">
                            <div class="service_text_table">
                               <h3>Adipisecting</h3>
@@ -292,14 +306,15 @@
                      </div>
                   </div>
                </div><!-- col / -->
-               <div class="col-md-4 service_box_width">
+
+               <div class="col-md-12 col-lg-4 service_box_width">
                   <div class="row">
-                     <div class="col-md-4 margin_padding_0">
-                        <div class="service_arrow_1">
+                     <div class="col-sm-6 col-lg-3 p-0 m-0">
+                        <div class="service_arrow_1 d-flex justify-content-center align-items-center">
                            <i class="material-icons">arrow_forward</i>
                         </div>
                      </div>
-                     <div class="col-md-8 margin_padding_0">
+                     <div class="col-sm-6 col-lg-9 p-0 m-0">
                         <div class="service_text_1">
                            <div class="service_text_table">
                               <h3>Sit amet consectetur</h3>
@@ -310,14 +325,15 @@
                      </div>
                   </div>
                </div><!-- col / -->
-               <div class="col-md-4 service_box_width">
+
+               <div class="col-md-12 col-lg-4 service_box_width">
                   <div class="row">
-                     <div class="col-md-4 margin_padding_0">
-                        <div class="service_arrow_1">
+                     <div class="col-sm-6 col-lg-3 p-0 m-0">
+                        <div class="service_arrow_1 d-flex justify-content-center align-items-center">
                            <i class="material-icons">arrow_forward</i>
                         </div>
                      </div>
-                     <div class="col-md-8 margin_padding_0">
+                     <div class="col-sm-6 col-lg-9 p-0 m-0">
                         <div class="service_text_1">
                            <div class="service_text_table">
                               <h3>Adipisecting</h3>
@@ -328,17 +344,15 @@
                      </div>
                   </div>
                </div><!-- col / -->
-            </div><!-- row / -->
 
-            <div class="row service_content_height">
-               <div class="col-md-4 service_box_width">
+               <div class="col-md-12 col-lg-4 service_box_width">
                   <div class="row">
-                     <div class="col-md-4 margin_padding_0">
-                        <div class="service_arrow_2 service_arrow_1">
+                     <div class="col-sm-6 col-lg-3 p-0 m-0">
+                        <div class="service_arrow_2 service_arrow_1 d-flex justify-content-center align-items-center">
                            <i class="material-icons">arrow_forward</i>
                         </div>
                      </div>
-                     <div class="col-md-8 margin_padding_0">
+                     <div class="col-sm-6 col-lg-9 p-0 m-0">
                         <div class="service_text_2 service_text_1">
                            <div class="service_text_table">
                               <h3>Quisquesit amet </h3>
@@ -349,14 +363,15 @@
                      </div>
                   </div>
                </div><!-- col / -->
-               <div class="col-md-4 service_box_width">
+
+               <div class="col-md-12 col-lg-4 service_box_width">
                   <div class="row">
-                     <div class="col-md-4 margin_padding_0">
-                        <div class="service_arrow_2 service_arrow_1">
+                     <div class="col-sm-6 col-lg-3 p-0 m-0">
+                        <div class="service_arrow_2 service_arrow_1 d-flex justify-content-center align-items-center">
                            <i class="material-icons">arrow_forward</i>
                         </div>
                      </div>
-                     <div class="col-md-8 margin_padding_0">
+                     <div class="col-sm-6 col-lg-9 p-0 m-0">
                         <div class="service_text_2 service_text_1">
                            <div class="service_text_table">
                               <h3>Adipisecting</h3>
@@ -367,14 +382,15 @@
                      </div>
                   </div>
                </div><!-- col / -->
-               <div class="col-md-4 service_box_width">
+
+               <div class="col-md-12 col-lg-4 service_box_width">
                   <div class="row">
-                     <div class="col-md-4 margin_padding_0">
-                        <div class="service_arrow_2 service_arrow_1">
+                     <div class="col-sm-6 col-lg-3 p-0 m-0">
+                        <div class="service_arrow_2 service_arrow_1 d-flex justify-content-center align-items-center">
                            <i class="material-icons">arrow_forward</i>
                         </div>
                      </div>
-                     <div class="col-md-8 margin_padding_0">
+                     <div class="col-sm-6 col-lg-9 p-0 m-0">
                         <div class="service_text_2 service_text_1">
                            <div class="service_text_table">
                               <h3>Quisquesit amet </h3>
@@ -385,17 +401,15 @@
                      </div>
                   </div>
                </div><!-- col / -->
-            </div><!-- row / -->
 
-            <div class="row service_content_height">
-               <div class="col-md-4 service_box_width">
+               <div class="col-md-12 col-lg-4 service_box_width">
                   <div class="row">
-                     <div class="col-md-4 margin_padding_0">
-                        <div class="service_arrow_3 service_arrow_1">
+                     <div class="col-sm-6 col-lg-3 p-0 m-0">
+                        <div class="service_arrow_3 service_arrow_1 d-flex justify-content-center align-items-center">
                            <i class="material-icons">arrow_forward</i>
                         </div>
                      </div>
-                     <div class="col-md-8 margin_padding_0">
+                     <div class="col-sm-6 col-lg-9 p-0 m-0">
                         <div class="service_text_3 service_text_1">
                            <div class="service_text_table">
                               <h3>Molestie at semper </h3>
@@ -406,14 +420,15 @@
                      </div>
                   </div>
                </div><!-- col / -->
-               <div class="col-md-4 service_box_width">
+
+               <div class="col-md-12 col-lg-4 service_box_width">
                   <div class="row">
-                     <div class="col-md-4 margin_padding_0">
-                        <div class="service_arrow_3 service_arrow_1">
+                     <div class="col-sm-6 col-lg-3 p-0 m-0">
+                        <div class="service_arrow_3 service_arrow_1 d-flex justify-content-center align-items-center">
                            <i class="material-icons">arrow_forward</i>
                         </div>
                      </div>
-                     <div class="col-md-8 margin_padding_0">
+                     <div class="col-sm-6 col-lg-9 p-0 m-0">
                         <div class="service_text_3 service_text_1">
                            <div class="service_text_table">
                               <h3>Quisque sit amet </h3>
@@ -424,14 +439,15 @@
                      </div>
                   </div>
                </div><!-- col / -->
-               <div class="col-md-4 service_box_width">
+
+               <div class="col-md-12 col-lg-4 service_box_width">
                   <div class="row">
-                     <div class="col-md-4 margin_padding_0">
-                        <div class="service_arrow_3 service_arrow_1">
+                     <div class="col-sm-6 col-lg-3 p-0 m-0">
+                        <div class="service_arrow_3 service_arrow_1 d-flex justify-content-center align-items-center">
                            <i class="material-icons">arrow_forward</i>
                         </div>
                      </div>
-                     <div class="col-md-8 margin_padding_0">
+                     <div class="col-sm-6 col-lg-9 p-0 m-0">
                         <div class="service_text_3 service_text_1">
                            <div class="service_text_table">
                               <h3>AMolestie at semperipisecting</h3>
@@ -442,6 +458,7 @@
                      </div>
                   </div>
                </div><!-- col / -->
+
             </div><!-- row / -->
          </div><!-- container-fluid / -->
       </div><!-- service_bg / -->
@@ -449,11 +466,11 @@
 
 
    <!-- Contact Form Start -->
-   <section id="custom_width">
+   <section class="form_custom_width">
       <div class="contact_form_bg section_padding">
-         <div class="container">
+         <div class="container-fluid">
             <div class="row">
-               <div class="text-center col-md-8 offset-2">
+               <div class="text-center col-lg-8 offset-lg-2">
                   <div class="contact_top process_top">
                      <h2>take <span>the next</span> step </h2>
                      <div class="our_process_border border_bar">
@@ -471,7 +488,7 @@
             </div><!-- row / -->
 
             <!-- Contact Form -->
-            <div class="row height_60">
+            <div id="contact_form" class="row height_60">
                <div class="col-md-12 text-center">
                   <div class="form_box">
                      <form action="index.html">
@@ -491,15 +508,15 @@
 
 
    <!-- Footer Section Start -->
-   <section id="custom_width">
+   <footer class="custom_width">
       <div class="footer">
          <div class="container">
             <div class="row">
                <div class="col-md-12 text-center footer_content_width">
                   <div class="social_icons">
-                     <a href="https://www.facebook.com/iamtheasad"><i class="fab fa-twitter"></i></a>
-                     <a href="https://twitter.com/iamtheasad"><i class="fab fa-facebook-f"></i></a>
-                     <a href="iamtheasad@gmail.com"><i class="fab fa-google"></i></a>
+                     <a href="https://www.facebook.com/iamtheasad" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                     <a href="https://twitter.com/iamtheasad" target="_blank"><i class="fab fa-twitter"></i></a>
+                     <a href="https://twitter.com/iamtheasad" target="_blank"><i class="fab fa-google"></i></a>
                   </div>
 
                   <div class="address">
@@ -518,7 +535,12 @@
             </div>
          </div>
       </div><!-- footer / -->
-   </section><!-- Footer Section End -->
+
+      <!-- Bottom To Top Button -->
+      <button class="top_bottom_button d-flex justify-content-center align-items-center"><i
+            class="fas fa-angle-up"></i></button>
+
+   </footer><!-- Footer Section End -->
 
 
 
@@ -553,36 +575,21 @@
 
    <!-- Javascript Links -->
 
-   <!------- jQuery Link ------->
-   <script src="js/jquery-3.4.1.min.js"></script>
-   <!-- jQuery CDN Links -->
-   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+   <!-- jQuery CDN Link -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
 
-   <!------- Bootstrap js Link ------->
-   <script src="js/bootstrap.min.js"></script>
    <!-- Bootstrap CDN link -->
-   <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script> -->
+      crossorigin="anonymous"></script>
 
-   <!-- <script src="js/Necessary-Plugin/Owl-Carousel-Slider/owl.carousel.min.js"></script> -->
-   <script src="js/slick.min.js"></script>
-
-   <!------- Font Awesome js link ------->
-   <script src="js/all.min.js"></script>
    <!-- Font Awesome CDN or Kit js link -->
-   <!-- <script src="https://kit.fontawesome.com/41baba5a65.js" crossorigin="anonymous"></script> -->
+   <script src="https://kit.fontawesome.com/41baba5a65.js" crossorigin="anonymous"></script>
 
-   <!------- isotope js link ------->
-   <!-- <script src="js/Necessary-Plugin/isotope/isotope.pkgd.min.js"></script> -->
-   <!-- isotop js CDN link -->
-   <!-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
-
-   <!-- CounterUp -->
-   <!-- <script src="js/Necessary-Plugin/Counterup-on-Scrolling/jquery.waypoints.min.js"></script>
-   <script src="js/Necessary-Plugin/Counterup-on-Scrolling/jquery.countup.min.js"></script> -->
-
+   <!-- Default js -->
    <script src="js/script.js"></script>
 </body>
 
