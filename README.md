@@ -3,12 +3,12 @@
 - **All Browser Supported**
 
 
-* HTML5
-* CSS3
-* Bootstrap 4
-* jquery
-* CSS3 Flexbox
-* Font-Awesome 5
-Technology are used here
+
+1. HTML5,
+2. CSS3,
+3. Bootstrap 4,
+4. jquery,
+5. CSS3 Flexbox,
+6. Font-Awesome 5 Technology are used here
 
 
